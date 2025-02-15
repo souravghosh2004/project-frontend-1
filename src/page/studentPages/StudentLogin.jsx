@@ -20,7 +20,7 @@ const StudentLogin = () => {
     }
 
     try {
-      const response = await axios.post("/api/student/login", {
+      const response = await axios.post("project-backend-orpin.vercel.app/api/student/login", {
         studentMail,
         studentPassword,
       })
