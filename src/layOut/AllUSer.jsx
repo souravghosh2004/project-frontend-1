@@ -1,7 +1,7 @@
 import React from 'react'
 import AlluserNavbar from '../navbar/AllUserNavbar'
 import { Outlet } from 'react-router-dom'
-const AllUSer = () => {
+const AllUser = () => {
   return (
     <div>
       <AlluserNavbar />
@@ -10,4 +10,4 @@ const AllUSer = () => {
   )
 }
 
-export default AllUSer
+export default AllUser
