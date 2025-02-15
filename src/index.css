@@ -1,0 +1,4 @@
+html, body {
+    overflow-x: hidden; /* Hides horizontal scrolling */
+    width: 100%; /* Ensures body fits within the viewport */
+}

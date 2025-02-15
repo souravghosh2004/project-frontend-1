@@ -1,0 +1,30 @@
+.main-register-student{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    width: 100vw;
+}
+
+.register-container {
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#p-id{
+    margin-top: 1rem;
+}
+.star {
+    color: red;
+}

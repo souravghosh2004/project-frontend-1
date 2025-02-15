@@ -1,0 +1,64 @@
+.all-job {
+  padding-top: 70px;
+  display: flex; /* Enables Flexbox */
+  flex-wrap: wrap; /* Ensures items wrap if they overflow */
+  gap: 20px; /* Adds space between items */
+  justify-content: center; /* Centers the rows horizontally */
+ background-color: wheat;
+  min-height: 100vh;
+
+  
+
+}
+
+.jobs {
+  display: flex; /* Enables Flexbox for child elements */
+  flex-direction: row; /* Items are placed in a row */
+  flex-wrap: wrap; /* Wraps items to a new line when the row is full */
+  gap: 15px; /* Adds space between job items */
+  justify-content: center; /* Centers the items horizontally within each row */
+}
+.jobs > div {
+  /*flex: 0 1 250px; /* Fixed width of 250px */
+  height: 250px; /* Fixed height of 250px */
+  box-sizing: border-box; /* Includes padding and border in size */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  border: 1px solid #ccc; /* Optional: add border for clarity */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for style */
+  /*background-color: #fff; /* Optional: background color */
+}
+
+@media (max-width: 768px) {
+  .jobs > div {
+      flex: 0 1 250px; /* Keep the 250px width for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .jobs > div {
+      flex: 0 1 250px; /* Keep the 250px width for small screens */
+  }
+}
+
+h1 {
+  margin-bottom: 20px; /* Adds spacing below the title */
+  font-size: 2rem;
+  text-align: center; /* Centers the title */
+}
+
+p {
+  font-size: 1.2rem;
+  
+}
+.loading{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

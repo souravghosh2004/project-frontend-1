@@ -1,0 +1,175 @@
+/* Container */
+.applied-student-list {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Headers */
+.applied-student-list__header {
+  text-align: center;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+.applied-student-list__sub-header {
+  margin-top: 20px;
+  color: #333;
+  font-size: 20px;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+}
+
+/* Paragraphs */
+.applied-student-list__info {
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+/* Links */
+.applied-student-list__link {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.applied-student-list__link:hover {
+  text-decoration: underline;
+}
+
+/* Table */
+.applied-student-list__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.applied-student-list__table th,
+.applied-student-list__table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.applied-student-list__table th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.applied-student-list__table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.applied-student-list__table tr:hover {
+  background-color: #ddd;
+}
+
+/* Loading and Error States */
+.applied-student-list__loading,
+.applied-student-list__error {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.applied-student-list__error {
+  color: red;
+}
+
+/* Button Container */
+.applied-student-list__button-container {
+  display: flex;
+  justify-content: flex-end; /* Align button to the right */
+  margin-top: 10px;
+}
+
+/* Dropdown Styling */
+.applied-student-list__dropdown {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  
+}
+
+/* Label Styling */
+.applied-student-list__dropdown label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Select Styling */
+.applied-student-list__select {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #f3f4f7, #e2e8f0); /* Subtle gradient */
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.applied-student-list__select:hover {
+  background: linear-gradient(45deg, #e2e8f0, #cbd5e1); /* Slightly darker gradient */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.applied-student-list__select:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 6px rgba(76, 175, 80, 0.5);
+}
+
+/* Download CSV Button */
+.applied-student-list__download-button {
+  /*display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Space between text and icon */
+  padding: 12px 20px;
+  background: linear-gradient(45deg, #007bff, #0056b3); /* Gradient blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  margin-left: 20px;
+}
+
+.applied-student-list__download-button:hover {
+  background: linear-gradient(45deg, #0056b3, #003f7d); /* Darker gradient */
+  transform: translateY(-3px); /* Lift effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for hover */
+}
+
+.applied-student-list__download-button:active {
+  transform: translateY(0); /* Reset on click */
+  box-shadow: none;
+}
+
+/* Optional: Add Icon to Download Button */
+.applied-student-list__download-button::before {
+  content: '⬇'; /* Downward arrow */
+  font-size: 14px;
+}
+
+.applied-student-list__header-container{
+display: flex;
+width: 100%;
+align-items: center;
+align-content: center;
+
+}
+.roundName{
+  margin-left: 3%;
+}
+.ss{
+  font-size:large;
+  margin-top: 5px;
+  color: #0d0d0d;
+}

@@ -1,0 +1,74 @@
+/* src/JobLogin.module.css */
+.jobLoginContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+  }
+  
+  .jobLoginHeader {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .jobLoginInputGroup {
+    margin-bottom: 20px;
+  }
+  
+  .jobLoginInputGroup label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .jobLoginInputGroup input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .jobLoginInputGroup input:focus {
+    border-color: #4CAF50;
+  }
+  
+  .jobLoginButton {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .jobLoginButton:hover {
+    background-color: #45a049;
+  }
+  
+  .jobLoginErrorMessage {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .jobLoginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+#password{
+    width: 1px;
+}  

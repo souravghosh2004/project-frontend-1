@@ -1,0 +1,229 @@
+/* SelectRound.css */
+
+/* Flexbox layout for round info and round selection */
+.round-info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.round-info {
+  background-color: #e0f7fa;
+  padding: 15px;
+  border-radius: 5px;
+  width: 48%;
+}
+
+.round-info h3 {
+  font-size: 18px;
+  color: #00796b;
+}
+
+.round-info p {
+  font-size: 16px;
+  color: #00796b;
+  font-weight: bold;
+}
+
+.select-container {
+  width: 48%;
+}
+
+.select-container label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.select-container select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.select-container select:disabled {
+  background-color: #e0e0e0;
+  cursor: not-allowed;
+}
+
+.info-message {
+  margin-top: 10px;
+  color: #00796b;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.student-list {
+  margin-top: 30px;
+}
+
+.student-list h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.student-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.student-list table th, .student-list table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.student-list table th {
+  background-color: #f1f1f1;
+}
+
+.student-list .checkbox input {
+  cursor: pointer;
+}
+
+.save-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+.student-list p {
+  color: #00796b;
+  font-size: 14px;
+}
+.completed-round {
+  color: green;
+  font-weight: bold;
+}
+
+.incomplete-round {
+  color: gray;
+}
+.completed-round {
+  color: green;
+  font-weight: bold;
+}
+
+.incomplete-round {
+  color: gray;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.select-container {
+  margin: 20px 0;
+}
+
+.info-message {
+  color: blue;
+  font-style: italic;
+}
+
+.error-message {
+  color: red;
+}
+
+.student-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.student-list th, .student-list td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.checkbox input {
+  cursor: pointer;
+}
+
+.save-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+.completed-round {
+  color: green;
+  font-weight: bold;
+}
+.completed-round {
+  color: green;
+  font-weight: bold;
+}
+
+.incomplete-round {
+  color: black;
+}
+
+.app-container {
+  margin: 20px;
+}
+
+.select-container {
+  margin-bottom: 20px;
+}
+
+.round-info {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.student-list {
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+}
+
+.info-message {
+  color: blue;
+}
+
+.save-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #218838;
+}
+
+.checkbox input {
+  width: 20px;
+  height: 20px;
+}
+

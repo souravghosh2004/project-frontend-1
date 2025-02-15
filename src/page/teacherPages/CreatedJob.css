@@ -1,0 +1,7 @@
+.createdJob-under-main {
+ background-color: wheat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
