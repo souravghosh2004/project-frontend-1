@@ -10,4 +10,4 @@ const AllUser = () => {
   )
 }
 
-export default AllUser
+export default AllUser;

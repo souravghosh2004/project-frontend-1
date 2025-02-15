@@ -7,7 +7,7 @@ import Home from './page/allUserPage/Home';
 import Overview from './page/allUserPage/Overview';
 import PlacementReport from './page/allUserPage/PlacementReport';
 import Contact from './page/allUserPage/Contact';
-import AllUser from './layOut/AllUser.jsx';
+import AllUser from './layOut/AllUser';
 import TeacherLogin from './page/teacherPages/TeacherLogin';
 import TeacherRegister from './page/teacherPages/TeacherRegister';
 import StudentLogin from './page/studentPages/StudentLogin';
